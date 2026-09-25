@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_title">Fotoüberweisung</string>
+    <string name="app_subtitle">Docutain SDK</string>
+
+    <string name="home_headline">Rechnung fotografieren, Überweisung fertig.</string>
+    <string name="home_description">IBAN, Betrag, Empfänger und Verwendungszweck werden automatisch erkannt.</string>
+    <string name="action_start">Fotoüberweisung starten</string>
+    <string name="feature_girocode">Erkennt GiroCodes (EPC-QR)</string>
+    <string name="feature_multipage">Auch mehrseitige Rechnungen</string>
+    <string name="feature_share">PDFs und Bilder aus anderen Apps über „Teilen“</string>
+    <string name="privacy_title">100 % auf dem Gerät</string>
+    <string name="privacy_no_cloud">Keine Daten verlassen das Gerät – kein Server, keine Cloud</string>
+    <string name="privacy_offline">Funktioniert ohne Internetverbindung</string>
+    <string name="privacy_gdpr">DSGVO-konform, kein Auftragsverarbeitungsvertrag nötig</string>
+    <string name="privacy_try">Probier es im Flugmodus aus</string>
+    <string name="powered_by">Powered by Docutain SDK</string>
+    <string name="link_website">Website</string>
+    <string name="link_documentation">Dokumentation</string>
+    <string name="link_contact">Kontakt</string>
+    <string name="action_options">Optionen</string>
+
+    <string name="options_title">Optionen</string>
+    <string name="options_more">Das sind nur einige der Optionen. Das SDK bietet noch viele weitere, z. B. für die Aufnahme, die Texte und die Farben.</string>
+    <string name="options_more_link">Alle Optionen in der Dokumentation</string>
+    <string name="option_girocode_title">GiroCode erkennen</string>
+    <string name="option_girocode_subtitle">Liest die Zahlungsdaten direkt aus einem EPC-QR-Code, falls die Rechnung einen hat</string>
+    <string name="option_bic_title">BIC auslesen</string>
+    <string name="option_bic_subtitle">Erkennt zusätzlich die BIC der Empfängerbank</string>
+    <string name="option_payment_state_title">Zahlungsstatus auslesen</string>
+    <string name="option_payment_state_subtitle">Erkennt, ob die Rechnung bereits bezahlt ist, z. B. per Lastschrift</string>
+    <string name="option_skip_editing_title">Bearbeitung überspringen</string>
+    <string name="option_skip_editing_subtitle">Lässt den Bearbeitungsschritt nach der Aufnahme weg und beschleunigt so den Ablauf für den Nutzer weiter</string>
+
+    <string name="result_title">Erkannte Daten</string>
+    <string name="result_transfer_section">Überweisung</string>
+    <string name="result_offline_hint">Offline auf diesem Gerät erkannt</string>
+    <string name="result_integrate_hint">Fotoüberweisung in deine eigene App einbauen?</string>
+    <string name="result_raw_json">JSON-Rückgabe des SDK</string>
+    <string name="action_start_again">Neue Fotoüberweisung</string>
+    <string name="action_back">Zurück</string>
+
+    <string name="field_recipient">Empfänger</string>
+    <string name="field_iban">IBAN</string>
+    <string name="field_bic">BIC</string>
+    <string name="field_amount">Betrag</string>
+    <string name="field_reference">Verwendungszweck</string>
+
+    <string name="error_payment_failed">Die Fotoüberweisung konnte nicht abgeschlossen werden.</string>
+
+    <string name="action_ok">OK</string>
+    <string name="license_error_title">Lizenzfehler</string>
+    <string name="license_error_message">Ein gültiger Lizenzschlüssel ist erforderlich. Bitte kontaktiere unseren Support, um eine verlängerte Testlizenz zu erhalten.</string>
+    <string name="license_error_action">Support kontaktieren</string>
+</resources>

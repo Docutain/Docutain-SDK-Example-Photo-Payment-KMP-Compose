@@ -1,0 +1,11 @@
+# line endings are normalized to LF in the repository
+* text=auto
+
+# shell scripts need LF to run on macOS and Linux, batch files CRLF on Windows
+gradlew text eol=lf
+*.sh text eol=lf
+*.bat text eol=crlf
+
+*.png binary
+*.jpg binary
+*.jar binary

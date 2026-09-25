@@ -1,0 +1,41 @@
+# Gradle and Kotlin
+.gradle/
+.kotlin/
+**/build/
+!src/**/build/
+
+# Android
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+# signing keys never belong into the repository
+*.jks
+*.keystore
+
+# IntelliJ IDEA / Android Studio
+.idea/
+*.iml
+
+# Xcode
+xcuserdata/
+DerivedData/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# CocoaPods
+Pods/
+
+# Operating systems
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log

@@ -1,0 +1,16 @@
+PODS:
+  - DocutainSdk (1.9.0)
+
+DEPENDENCIES:
+  - DocutainSdk (= 1.9.0)
+
+SPEC REPOS:
+  trunk:
+    - DocutainSdk
+
+SPEC CHECKSUMS:
+  DocutainSdk: 568fcb9f5750d3aed870a9375ff416a4373f9c7e
+
+PODFILE CHECKSUM: b80082e617a2d683ee65313d40d6d072c723ecd4
+
+COCOAPODS: 1.16.2

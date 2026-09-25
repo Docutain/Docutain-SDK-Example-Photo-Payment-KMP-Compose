@@ -1,0 +1,9 @@
+platform :ios, '15.0'
+
+target 'iosApp' do
+  use_frameworks!
+
+  # Native Docutain SDK the KMP SDK talks to. The Kotlin framework is embedded by
+  # :shared:embedAndSignAppleFrameworkForXcode, not by CocoaPods.
+  pod 'DocutainSdk', '1.9.0'
+end

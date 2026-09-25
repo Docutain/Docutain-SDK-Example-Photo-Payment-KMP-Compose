@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_title">Photo Payment</string>
+    <string name="app_subtitle">Docutain SDK</string>
+
+    <string name="home_headline">Snap the invoice, the transfer is ready.</string>
+    <string name="home_description">IBAN, amount, recipient and reference are detected automatically.</string>
+    <string name="action_start">Start photo payment</string>
+    <string name="feature_girocode">Detects GiroCodes (EPC QR)</string>
+    <string name="feature_multipage">Handles multi-page invoices</string>
+    <string name="feature_share">PDFs and images from other apps via “Share”</string>
+    <string name="privacy_title">100 % on the device</string>
+    <string name="privacy_no_cloud">No data leaves the device – no server, no cloud</string>
+    <string name="privacy_offline">Works without an internet connection</string>
+    <string name="privacy_gdpr">GDPR compliant, no data processing agreement needed</string>
+    <string name="privacy_try">Try it in airplane mode</string>
+    <string name="powered_by">Powered by Docutain SDK</string>
+    <string name="link_website">Website</string>
+    <string name="link_documentation">Documentation</string>
+    <string name="link_contact">Contact</string>
+    <string name="action_options">Options</string>
+
+    <string name="options_title">Options</string>
+    <string name="options_more">These are only a few of the options. The SDK offers many more, e.g. for capturing, the texts and the colors.</string>
+    <string name="options_more_link">All options in the documentation</string>
+    <string name="option_girocode_title">Detect GiroCode</string>
+    <string name="option_girocode_subtitle">Reads the payment data straight from an EPC QR code if the invoice has one</string>
+    <string name="option_bic_title">Read BIC</string>
+    <string name="option_bic_subtitle">Also detects the BIC of the recipient’s bank</string>
+    <string name="option_payment_state_title">Read payment state</string>
+    <string name="option_payment_state_subtitle">Detects whether the invoice is already paid, e.g. by direct debit</string>
+    <string name="option_skip_editing_title">Skip page editing</string>
+    <string name="option_skip_editing_subtitle">Leaves out the editing screen after the photo, which speeds up the process for the user even further</string>
+
+    <string name="result_title">Detected data</string>
+    <string name="result_transfer_section">Transfer</string>
+    <string name="result_offline_hint">Detected offline on this device</string>
+    <string name="result_integrate_hint">Want photo payment in your own app?</string>
+    <string name="result_raw_json">JSON returned by the SDK</string>
+    <string name="action_start_again">New photo payment</string>
+    <string name="action_back">Back</string>
+
+    <string name="field_recipient">Recipient</string>
+    <string name="field_iban">IBAN</string>
+    <string name="field_bic">BIC</string>
+    <string name="field_amount">Amount</string>
+    <string name="field_reference">Reference</string>
+
+    <string name="error_payment_failed">The photo payment could not be completed.</string>
+
+    <string name="action_ok">OK</string>
+    <string name="license_error_title">License error</string>
+    <string name="license_error_message">A valid license key is required. Please contact our support to get an extended trial license.</string>
+    <string name="license_error_action">Contact support</string>
+</resources>

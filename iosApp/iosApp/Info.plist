@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- translated in de.lproj/InfoPlist.strings -->
+	<key>CFBundleDisplayName</key>
+	<string>Photo Payment</string>
+	<!-- shown when the scanner asks for the camera, translated in de.lproj/InfoPlist.strings -->
+	<key>NSCameraUsageDescription</key>
+	<string>The camera is needed to take a photo of the invoice.</string>
+	<!-- keeps the design of iOS 18 on iOS 26 instead of Liquid Glass, optional but recommended for now -->
+	<key>UIDesignRequiresCompatibility</key>
+	<true/>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<!-- PDFs and images the app offers to open, so it shows up under "Share" and "Open in" -->
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>PDF</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSHandlerRank</key>
+			<string>Default</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.adobe.pdf</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>Image</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSHandlerRank</key>
+			<string>Default</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>public.image</string>
+			</array>
+		</dict>
+	</array>
+	<!-- lists the app under "Open with" in Files, too; iOSApp copies the file before the SDK reads it -->
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+</dict>
+</plist>
