@@ -7,9 +7,10 @@ androidx-activity = "1.13.0"
 composeMultiplatform = "1.12.0"
 kotlin = "2.4.20"
 material3 = "1.12.0-alpha03"
-docutainSdk = "1.0.0-beta.1"
+docutainSdk = "1.1.0"
 kotlinxCoroutines = "1.11.0"
 jetbrainsNavigationevent = "1.1.0"
+jetbrainsLifecycle = "2.11.0"
 kotlinxSerialization = "1.11.0"
 
 [libraries]
@@ -22,6 +23,7 @@ compose-components-resources = { module = "org.jetbrains.compose.components:comp
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutines" }
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerialization" }
 androidx-navigationevent-compose = { module = "org.jetbrains.androidx.navigationevent:navigationevent-compose", version.ref = "jetbrainsNavigationevent" }
+androidx-lifecycle-viewmodel-compose = { module = "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "jetbrainsLifecycle" }
 docutain-sdk = { module = "de.docutain:Docutain-SDK-KMP", version.ref = "docutainSdk" }
 
 [plugins]
